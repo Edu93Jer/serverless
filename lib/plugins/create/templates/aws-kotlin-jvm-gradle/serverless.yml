@@ -23,6 +23,9 @@ frameworkVersion: '2'
 provider:
   name: aws
   runtime: java11
+  lambdaHashingVersion: 20201221
+  apiGateway:
+    shouldStartNameWithService: true
 
 # you can overwrite defaults here
 #  stage: dev
